@@ -1,0 +1,14 @@
+====================================
+wordpress-cl    - post from your CLI
+====================================
+
+Simple posting program using wordpresslib
+
+You can get wordpresslib from here:
+http://www.blackbirdblog.it/programmazione/progetti/28#english
+
+Just configure it (username and password and url of course!)
+and use it this way:
+wordpress-cl title postFile.wppost
+
+the file.wppost should be a plain text file.

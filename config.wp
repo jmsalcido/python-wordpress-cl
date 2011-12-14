@@ -1,0 +1,12 @@
+# config.wp:
+# Archivo de configuracion del script
+#
+# url
+# 
+url = http://otfusion.org/jose152/xmlrpc.php
+# username
+#
+username = jose152
+# password
+#
+password = 227953

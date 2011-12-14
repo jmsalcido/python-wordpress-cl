@@ -2,13 +2,15 @@
 wordpress-cl    - post from your CLI
 ====================================
 
-Simple posting program using wordpresslib
+Simple posting program using python-wordpress-xmlrpc
 
-You can get wordpresslib from here:
-http://www.blackbirdblog.it/programmazione/progetti/28#english
+You can get python-wordpress-xmlrpc from here:
+https://github.com/maxcutler/python-wordpress-xmlrpc
 
 Just configure it (username and password and url of course!)
 and use it this way:
+chmod +x wordpress-cl.py
+mv wordpress-cl.py wordpress-cl
 wordpress-cl title postFile.wppost
 
-the file.wppost should be a plain text file.
+the postFile.wppost should be a plain text file, you can use HTML tags on the text.

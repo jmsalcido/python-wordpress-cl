@@ -3,10 +3,10 @@
 #
 # url
 # 
-url = http://otfusion.org/jose152/xmlrpc.php
+url = http://yourblog.com/xmlrpc.php
 # username
 #
-username = jose152
+username = username
 # password
 #
-password = 227953
+password = 123456

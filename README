@@ -7,10 +7,13 @@ Simple posting program using python-wordpress-xmlrpc
 You can get python-wordpress-xmlrpc from here:
 https://github.com/maxcutler/python-wordpress-xmlrpc
 
+Execute it this way to create a default config.wp (you will need configobj module)
+python config.py
+
 Just configure it (username and password and url of course!)
 and use it this way:
 chmod +x wordpress-cl.py
 mv wordpress-cl.py wordpress-cl
-wordpress-cl title postFile.wppost
+wordpress-cl title postFile.html
 
-the postFile.wppost should be a plain text file, you can use HTML tags on the text.
+Very useful (at least for me)

@@ -18,7 +18,7 @@ class ManagePost:
 
 	def sendPost(self):
 		'''Send post to the blog and return the post id'''
-		return self.post.wp_client.call(NewPost(self.post, True))
+		return self.post.wp_client.call(NewPost(self.wp_post, True))
 
 	def preparePost(self, post):
 		'''Prepare the post'''
@@ -29,7 +29,8 @@ class ManagePost:
 
 	def __init__(self, post):
 		'''Init method'''
-		self.post = self.preparePost(post)
+		self.post = post
+		self.wp_post = self.preparePost(post)
 
 class Post:
 	'''Post class for the wordpress-cl program'''
